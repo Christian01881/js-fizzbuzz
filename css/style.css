@@ -1,0 +1,44 @@
+:root{
+    --bg-body:#07615f;
+    --bg-fizz:#a18db0;
+    --bg-buzz:#d77b00;
+    --bg-fizz-buzz:#a9113f;
+    --bg-box:#e4d1af;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+#container2{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.box{
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.box-content{
+    background-color: var(--bg-box);
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.fizz{
+    background-color: var(--bg-fizz);
+}
+
+.buzz{
+    background-color: var(--bg-buzz);
+}
+
+.fizzbuzz{
+    background-color: var(--bg-fizz-buzz);
+}
